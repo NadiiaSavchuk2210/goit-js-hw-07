@@ -1,0 +1,32 @@
+.login-form {
+  margin: 0 auto;
+  padding: 24px;
+  max-width: 408px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.login-form label {
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.login-form label:last-of-type {
+  margin-bottom: 16px;
+}
+
+.login-form input {
+  min-height: 40px;
+}
+
+.login-form input:focus {
+  border: 1px solid #808080;
+}
+
+.login-form button {
+  width: 86px;
+  min-height: 40px;
+}

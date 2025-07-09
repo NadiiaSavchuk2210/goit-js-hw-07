@@ -1,0 +1,17 @@
+.widget {
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 100px 88px;
+  width: 345px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  background-color: #fff;
+}
+
+.widget button {
+  width: 148px;
+  min-height: 40px;
+}
